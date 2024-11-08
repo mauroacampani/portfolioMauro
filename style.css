@@ -447,16 +447,37 @@ section .button button:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: -100px;
+    
 }
 
 .skills-details.box{
     width: calc(100% / 3 - 20px);
     margin: 20px 0;
+    
 }
 
 .skills-details .boxes .topic{
     font-size: 20px;
     color: #b74b4b;
+    /* Añadir flexbox para centrar el contenido */
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    justify-content: center; /* Centra los elementos en el eje vertical */
+    align-items: center; /* Centra los elementos en el eje horizontal */
+}
+
+.skills-details .boxes .box .icon{
+    height: 50px;
+    width: 50px;
+    background: #b74b4b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: #fff;
+    margin: 0 auto 10px auto;
+    transition: all 0.4s ease;
 }
 
 .skills-details .boxes .per{
@@ -480,6 +501,7 @@ section .button button:hover{
     cursor: default;
     color: white;
     transition: all 0.4s ease;
+    
 }
 
 .services .boxes .box:hover{
@@ -649,6 +671,7 @@ footer .text span a:hover{
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin-top: 0;
     }
 
     .services .boxes .box{
