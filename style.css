@@ -34,13 +34,13 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #b74b4b;
+    background: #3f54b1;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background: #b74b4b;
+    background: #3f54b1;
 }
 
 /*navbar*/
@@ -64,8 +64,8 @@ nav{
 }
 
 .logo span{
-    color: #b74b4b;
-    text-shadow: 0 0 10px #b74b4b;
+    color: #3f54b1;
+    text-shadow: 0 0 10px #3f54b1;
 }
 
 .hamburg, .cancel{
@@ -100,7 +100,7 @@ nav{
     left: 0;
     width: 0%;
     height: 3px;
-    background-color: #b74b4b;
+    background-color: #3f54b1;
     transition: 0.2s linear;
 }
 
@@ -109,7 +109,7 @@ nav{
 }
 
 .nav-container .links a:hover{
-    color: #b74b4b;
+    color: #3f54b1;
 }
 
 .dropdown{
@@ -135,7 +135,7 @@ nav{
 }
 
 .dropdown .links a:hover{
-    background-color: #b74b4b;
+    background-color: #3f54b1;
 }
 
 section{
@@ -151,11 +151,12 @@ section .main-container{
 }
 
 .main-container .image{
-    width: 500px;
-    height: 65vh;
+    width: 300px;
+    height: 60vh;
     border-radius: 100%;
     overflow: hidden;
-    box-shadow: 0 0 50px #b74b4b;
+    box-shadow: 0 0 50px #3f54b1;
+    margin-left: 50px;
 }
 
 .main-container .image img{
@@ -191,8 +192,8 @@ section .main-container{
 }
 
 .content h1 span{
-    color: #b74b4b;
-    text-shadow: 0 0 10px #b74b4b;
+    color: #3f54b1;
+    text-shadow: 0 0 10px #3f54b1;
 
 }
 
@@ -202,8 +203,8 @@ section .main-container{
 }
 
 .content .typewrite-text{
-    color: #b74b4b;
-    text-shadow: 0 0 10px #b74b4b;
+    color: #3f54b1;
+    text-shadow: 0 0 10px #3f54b1;
     
 }
 
@@ -213,7 +214,7 @@ section .main-container{
 
 .content .typewrite-text label::before{
     content: "Backend Python";
-    color: #b74b4b;
+    color: #3f54b1;
     animation: words 20s infinite;
 }
 
@@ -230,7 +231,7 @@ section .main-container{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #b74b4b;
+        border-left: 3px solid #3f54b1;
     }
 }
 
@@ -269,9 +270,9 @@ section .main-container{
     width: 3rem;
     height: 3rem;
     background-color: transparent;
-    border: 0.2rem solid #b74b4b;
+    border: 0.2rem solid #3f54b1;
     border-radius: 50%;
-    color: #b74b4b;
+    color: #3f54b1;
     margin: 5px 15px;
     font-size:  1.5rem;
     transition: 0.2s linear;
@@ -280,15 +281,15 @@ section .main-container{
 .social-links i:hover{
     scale: 1.3;
     color: black;
-    background-color: #b74b4b;
-    filter: drop-shadow(0 0 10px #b74b4b);
+    background-color: #3f54b1;
+    filter: drop-shadow(0 0 10px #3f54b1);
 }
 
 .content button{
     width: 50%;
-    height: 6vh;
+    height: 5vh;
     margin: 30px;
-    background-color: #b74b4b;
+    background-color: #3f54b1;
     color: white;
     border: none;
     outline: none;
@@ -296,20 +297,21 @@ section .main-container{
     font-weight: 700;
     border-radius: 5px;
     transition: 0.2s linear;
+    
 }
 
 .content button:hover{
     scale: 1.1;
-    color: #b74b4b;
-    border: 2px solid #b74b4b;
+    color: #3f54b1;
+    border: 2px solid #3f54b1;
     background-color: transparent;
     font-weight: 700;
-    box-shadow: 0 0 40px #b74b4b;
+    box-shadow: 0 0 40px #3f54b1;
 }
 
 section .content{
     width: 80%;
-    margin: 0px auto;
+    margin: -50px auto;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -338,7 +340,7 @@ section .title span::before, section .title span::after{
     position: absolute;
     height: 3px;
     width: 100%;
-    background-color: #b74b4b;
+    background-color: #3f54b1;
     left: 0;
     bottom: 0;
 }
@@ -387,7 +389,7 @@ section .button button{
     border-radius: 4px;
     font-size: 25px;
     font-weight: 400;
-    background: #b74b4b;
+    background: #3f54b1;
     color: white;
     border: 2px solid transparent;
     cursor: pointer;
@@ -395,9 +397,9 @@ section .button button{
 }
 
 section .button button:hover{
-    border-color: #b74b4b;
+    border-color: #3f54b1;
     background-color: #fff;
-    color: #b74b4b;
+    color: #3f54b1;
 }
 
 .skills{
@@ -459,7 +461,7 @@ section .button button:hover{
 
 .skills-details .boxes .topic{
     font-size: 20px;
-    color: #b74b4b;
+    color: #3f54b1;
     /* Añadir flexbox para centrar el contenido */
     display: flex;
     flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
@@ -470,7 +472,7 @@ section .button button:hover{
 .skills-details .boxes .box .icon{
     height: 50px;
     width: 50px;
-    background: #b74b4b;
+    background: #3f54b1;
     border-radius: 50%;
     text-align: center;
     line-height: 50px;
@@ -482,7 +484,7 @@ section .button button:hover{
 
 .skills-details .boxes .per{
     font-size: 60px;
-    color: #b74b4b;
+    color: #3f54b1;
 }
 
 .services .boxes{
@@ -505,14 +507,14 @@ section .button button:hover{
 }
 
 .services .boxes .box:hover{
-    background: #b74b4b;
+    background: #0444f7;
     color: #fff;
 }
 
 .services .boxes .box .icon{
     height: 50px;
     width: 50px;
-    background: #b74b4b;
+    background: #3f54b1;
     border-radius: 50%;
     text-align: center;
     line-height: 50px;
@@ -524,7 +526,7 @@ section .button button:hover{
 
 .boxes .box:hover .icon{
     background-color: #fff;
-    color: #b74b4b;
+    color: #3f54b1;
 }
 
 .services .boxes .box:hover .topic, .services .boxes .box:hover p{
@@ -551,8 +553,15 @@ section .button button:hover{
     margin: auto;
 }
 
+.contact .button{
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
 footer{
-    background: #b74b4b;
+    background: #3f54b1;
     padding:  15px 0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -578,7 +587,7 @@ footer .text span a:hover{
     bottom: 20px;
     right: 20px;
     color: #fff;
-    background: #b74b4b;
+    background: #3f54b1;
     padding: 7px 12px;
     font-size: 18px;
     border-radius: 6px;
@@ -587,6 +596,23 @@ footer .text span a:hover{
 }
 
 @media(max-width: 1000px){
+
+    .services{
+        margin: 0;
+    }
+    
+    .skills{
+        margin: 0;
+    }
+    
+    .contact{
+        margin: 0;
+    }
+
+    .about{
+        margin: 0;
+    }
+    
     .about .about-details{
         justify-content: center;
         flex-direction: column;
@@ -653,7 +679,7 @@ footer .text span a:hover{
     .main-container .image{
         z-index: -1;
         width: 50%;
-        height: 50%;
+        height: 60%;
     }
 
     .skills .skills-details{
@@ -701,8 +727,22 @@ footer .text span a:hover{
 
     .skills-details .boxes .per{
         font-size: 50px;
-        color: #b74b4b;
+        color: #3f54b1;
     }
+
+.services{
+    margin: 0;
+}
+
+.skills{
+    margin: 0;
+}
+
+.contact{
+    margin: 0;
+}
+
+
 }
 /*
 header{
@@ -722,7 +762,7 @@ header{
 
 .logo{
     font-size: 3rem;
-    color: #b74b4b;
+    color: #3f54b1;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -741,7 +781,7 @@ nav a{
 }
 
 nav a:hover, nav a.active{
-    color: #b74b4b;
+    color: #3f54b1;
     border-bottom: 3px solid transparent;
 }
 
@@ -752,8 +792,8 @@ nav a:hover, nav a.active{
         top: 0;
         right: 0;
         width: 40%;
-        border-left: 3px solid #b74b4b;
-        border-bottom: 3px solid #b74b4b;
+        border-left: 3px solid #3f54b1;
+        border-bottom: 3px solid #3f54b1;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
         background-color: #161616;
@@ -773,7 +813,7 @@ nav a:hover, nav a.active{
     nav a:hover, nav a.active{
         padding: 1rem;
         border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #b74b4b;
+        border-bottom: 0.5rem solid #3f54b1;
     }
 
 }
@@ -798,7 +838,7 @@ section{
 }
 
 span{
-    color: #b74b4b;
+    color: #3f54b1;
 
 }
 
@@ -820,7 +860,7 @@ span{
     position: relative;
     width: 32vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px solid #b74b4b;
+    box-shadow: 0 0 25px solid #3f54b1;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -837,7 +877,7 @@ span{
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #b74b4b;
+    border: 0.2rem solid #3f54b1;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem;
