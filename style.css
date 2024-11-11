@@ -1006,8 +1006,10 @@ footer .text span a:hover{
     }
 
     .contact .text{
-        width: 100%;
-    }
+        width: 1
+        
+        
+}
 }
 
 @media (max-width: 768px) {
@@ -1030,6 +1032,11 @@ footer .text span a:hover{
         width: 70%;  /* Ajustar el tamaño de la imagen */
         height: 60vh; /* Ajustar la altura de la imagen */
         margin-left: 0px;  /* Espacio entre la imagen y el texto */
+    }
+
+    section{
+        width: 100%;
+        min-height: 90vh;
     }
 }
 
