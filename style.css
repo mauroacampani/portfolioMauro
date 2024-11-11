@@ -481,10 +481,10 @@ section .button button:hover{
     margin-top: -100px; */
     
     display: grid;
-    grid-template-columns: repeat(10, 1fr);   /* 6 columnas iguales */
+    grid-template-columns: repeat(8, 1fr);   /* 6 columnas iguales */
     gap: 15px;                                 /* Espacio pequeño entre los iconos */
     padding: 0;                               /* Elimina cualquier relleno del contenedor */
-    margin: 0;  
+    margin: 5px;  
     
 }
 
@@ -874,7 +874,7 @@ footer .text span a:hover{
     border: 0.2rem solid #5774f5;
     border-radius: 50%;
     color: white;
-    margin: 5px 15px;
+    /* margin: 5px 15px; */
     font-size:  1.5rem;
     transition: 0.2s linear;
 }
@@ -890,25 +890,25 @@ footer .text span a:hover{
 
 
 @media (max-width: 1200px) {
-    .skills .skills-details .boxes {
-        grid-template-columns: repeat(6, 1fr);  /* 5 iconos por fila en pantallas medianas */
+    .skills-details .boxes {
+        grid-template-columns: repeat(3, 1fr);  /* 5 iconos por fila en pantallas medianas */
     }
 }
 
 @media (max-width: 992px) {
     .skills .skills-details .boxes{
-        grid-template-columns: repeat(6, 1fr);  /* 4 iconos por fila en pantallas más pequeñas */
+        grid-template-columns: repeat(3, 1fr);  /* 4 iconos por fila en pantallas más pequeñas */
     }
 }
 
 @media (max-width: 768px) {
     .skills .skills-details .boxes {
-        grid-template-columns: repeat(5, 1fr);  /* 3 iconos por fila en pantallas móviles */
+        grid-template-columns: repeat(3, 1fr);  /* 3 iconos por fila en pantallas móviles */
     }
 }
 
 @media (max-width: 576px) {
     .skills .skills-details .boxes {
-        grid-template-columns: repeat(4, 1fr);  /* 2 iconos por fila en pantallas muy pequeñas */
+        grid-template-columns: repeat(3, 1fr);  /* 2 iconos por fila en pantallas muy pequeñas */
     }
 }
