@@ -177,6 +177,7 @@ section .main-container{
     align-items: center;
     margin-top: auto;
     min-height: 90vh;
+
 }
 
 .main-container .image{
@@ -976,13 +977,9 @@ footer .text span a:hover{
     }
 
     .main-container .image{
-        /* z-index: -1;
+        z-index: -1;
         width: 50%;
-        height: 10%; */
-        width: 80%; /* Hacer que la imagen ocupe un 80% del ancho del contenedor */
-        height: 50vh; /* Reducir la altura para ajustarse mejor a pantallas pequeñas */
-        margin-left: 0; /* Eliminar margen izquierdo en dispositivos pequeños */
-        box-shadow: 0 0 30px #5774f5; /* Reducir el tamaño de la sombra */
+        height: 10%;
     }
 
     .skills .skills-details{
@@ -1022,9 +1019,17 @@ footer .text span a:hover{
         padding: 15px;
       }
 
-      .main-container .image{
-      
-        margin-left: 0px;
+      section .main-container {
+        flex-direction: column;       /* Apilar la imagen y el texto en columna */
+        padding-left: 0;               /* Eliminar padding a la izquierda */
+        align-items: center;          /* Centrar los elementos verticalmente */
+        justify-content: center;      /* Asegurar que los elementos estén centrados */
+    }
+
+    section .main-container .image {
+        width: 80%;  /* Ajustar el tamaño de la imagen */
+        height: 50vh; /* Ajustar la altura de la imagen */
+        margin-bottom: 20px;  /* Espacio entre la imagen y el texto */
     }
 }
 
