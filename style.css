@@ -1008,6 +1008,19 @@ footer .text span a:hover{
     .contact .text{
         width: 100%;
     }
+
+    section .main-container {
+        flex-direction: column;       /* Apilar la imagen y el texto en columna */
+        padding-left: 0;               /* Eliminar padding a la izquierda */
+        align-items: center;          /* Centrar los elementos verticalmente */
+        justify-content: center;      /* Asegurar que los elementos estén centrados */
+    }
+
+    section .main-container .image {
+        width: 10%;  /* Ajustar el tamaño de la imagen */
+        height: 50vh; /* Ajustar la altura de la imagen */
+        margin-bottom: 20px;  /* Espacio entre la imagen y el texto */
+    }
 }
 
 @media (max-width: 768px) {
