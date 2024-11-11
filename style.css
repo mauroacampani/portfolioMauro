@@ -976,9 +976,13 @@ footer .text span a:hover{
     }
 
     .main-container .image{
-        z-index: -1;
+        /* z-index: -1;
         width: 50%;
-        height: 10%;
+        height: 10%; */
+        width: 80%; /* Hacer que la imagen ocupe un 80% del ancho del contenedor */
+        height: 50vh; /* Reducir la altura para ajustarse mejor a pantallas pequeñas */
+        margin-left: 0; /* Eliminar margen izquierdo en dispositivos pequeños */
+        box-shadow: 0 0 30px #5774f5; /* Reducir el tamaño de la sombra */
     }
 
     .skills .skills-details{
