@@ -1028,7 +1028,7 @@ footer .text span a:hover{
 
     section .main-container .image {
         width: 70%;  /* Ajustar el tamaño de la imagen */
-        height: 50vh; /* Ajustar la altura de la imagen */
+        height: 60vh; /* Ajustar la altura de la imagen */
         margin-left: 0px;  /* Espacio entre la imagen y el texto */
     }
 }
