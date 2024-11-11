@@ -675,7 +675,7 @@ footer .text span a:hover{
     display: none;
 }
 
-@media(max-width: 1000px){
+/* @media(max-width: 1000px){
 
     .services{
         margin: 0;
@@ -713,16 +713,16 @@ footer .text span a:hover{
         margin: 20px 0;
         width: calc(100%/2 -20px);
     }
-}
+} */
 
-@media(max-width: 900px){
+/* @media(max-width: 900px){
     .about .left img{
         height: 350px;
         width: 350px;
     }
-}
+} */
 
-@media(max-width: 968px){
+/* @media(max-width: 968px){
     nav .logo{
         position: absolute;
         top: 16px;
@@ -790,9 +790,9 @@ footer .text span a:hover{
         width: 100%;
     }
     
-}
+} */
 
-@media(max-width: 500px){
+/* @media(max-width: 500px){
     body{
         align-items: center;
     }
@@ -830,9 +830,9 @@ footer .text span a:hover{
 
 .contact{
     margin: 0;
-}
+} */
 
-}
+/* } */
 
 .btn-links{
     margin-top: 20px;
@@ -893,11 +893,119 @@ footer .text span a:hover{
     .skills-details .boxes {
         grid-template-columns: repeat(3, 1fr);  /* 5 iconos por fila en pantallas medianas */
     }
+
+    .services{
+        margin: 0;
+    }
+    
+    .skills{
+        margin: 0;
+    }
+    
+    .contact{
+        margin: 0;
+    }
+
+    .about{
+        margin: 0;
+    }
+    
+    .about .about-details{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about .about-details .left{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-details .right{
+        width: 90%;
+        margin: 40px 0;
+    }
+
+    .services .boxes .box{
+        margin: 20px 0;
+        width: calc(100%/2 -20px);
+    }
 }
 
 @media (max-width: 992px) {
     .skills .skills-details .boxes{
         grid-template-columns: repeat(3, 1fr);  /* 4 iconos por fila en pantallas más pequeñas */
+    }
+
+    .about .left img{
+        height: 350px;
+        width: 350px;
+    }
+    nav .logo{
+        position: absolute;
+        top: 16px;
+        left: 15px;
+        font-size: 1.5rem;
+    }
+
+    section .main-container{
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .nav-container .links{
+        display: none;
+    }
+
+    .hamburg, .cancel{
+        opacity: 1;
+        pointer-events: visible;
+    }
+
+    .main-container .content{
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .social-links i{
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    .main-container .image{
+        z-index: -1;
+        width: 50%;
+        height: 10%;
+    }
+
+    .skills .skills-details{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .skills-details .text{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .skills-details .boxes{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .services .boxes .box{
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .contact .text{
+        width: 100%;
     }
 }
 
@@ -905,10 +1013,54 @@ footer .text span a:hover{
     .skills .skills-details .boxes {
         grid-template-columns: repeat(3, 1fr);  /* 3 iconos por fila en pantallas móviles */
     }
+
+    .container {
+        padding: 15px;
+      }
 }
 
 @media (max-width: 576px) {
     .skills .skills-details .boxes {
         grid-template-columns: repeat(3, 1fr);  /* 2 iconos por fila en pantallas muy pequeñas */
     }
+
+    body{
+        align-items: center;
+    }
+    section .main-container{
+        margin-top: 100px;
+    }
+    
+    .main-container .image{
+        width: 50%;
+        height: 60%;
+        margin-bottom: 0px;
+    }
+
+    .main-container .content{
+        width: 80%;
+    }
+
+    .main-container button{
+        margin-top: 15px;
+    }
+
+    .skills-details .boxes .per{
+        font-size: 50px;
+        color: #5774f5;
+    }
+
+    
+.services{
+    margin: 0;
+}
+
+.skills{
+    margin: 0;
+}
+
+.contact{
+    margin: 0;
+}
+
 }
