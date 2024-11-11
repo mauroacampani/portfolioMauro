@@ -181,7 +181,7 @@ section .main-container{
 
 .main-container .image{
     width: 300px;
-    height: 40vh;
+    height: 60vh;
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px #5774f5;
