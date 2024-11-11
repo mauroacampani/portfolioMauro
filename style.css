@@ -1017,6 +1017,11 @@ footer .text span a:hover{
     .container {
         padding: 15px;
       }
+
+      .main-container .image{
+      
+        margin-left: 0px;
+    }
 }
 
 @media (max-width: 576px) {
