@@ -931,6 +931,12 @@ footer .text span a:hover{
         margin: 20px 0;
         width: calc(100%/2 -20px);
     }
+
+    .main-container .image{
+        width: 50%;
+        height: 40%;
+        margin-bottom: 0px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -1010,6 +1016,12 @@ footer .text span a:hover{
         
         
 }
+
+.main-container .image{
+    width: 50%;
+    height: 40%;
+    margin-bottom: 0px;
+}
 }
 
 @media (max-width: 768px) {
@@ -1028,15 +1040,10 @@ footer .text span a:hover{
         justify-content: center;      /* Asegurar que los elementos estén centrados */
     }
 
-    section .main-container .image {
-        width: 70%;  /* Ajustar el tamaño de la imagen */
-        height: 50vh; /* Ajustar la altura de la imagen */
-        margin-left: 0px;  /* Espacio entre la imagen y el texto */
-    }
-
-    section{
-        width: 100%;
-        min-height: 90vh;
+    .main-container .image{
+        width: 50%;
+        height: 60%;
+        margin-bottom: 0px;
     }
 }
 
